@@ -45,7 +45,7 @@ Entorno: Jupyter Lab / VS Code Notebooks
   
 ## Resultados y Métricas
 El modelo base arrojó las siguientes métricas de evaluación en el conjunto de datos de prueba (datos que la IA nunca vio durante el entrenamiento):
-* Coeficiente de Determinación ($R^2$): 0.51 (El modelo explica el 51% de la variabilidad de los precios del mercado simulado).
+* Coeficiente de Determinación ($R^2$): 0.63 (El modelo explica el 63% de la variabilidad de los precios del mercado simulado).
 * Error Absoluto Medio (MAE): Permite cuantificar en pesos chilenos la desviación promedio de las predicciones frente a los valores reales de tasación.
 
 ## Ejemplo de Uso (Tasación Interactiva)
