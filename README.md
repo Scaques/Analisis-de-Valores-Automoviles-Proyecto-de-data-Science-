@@ -62,16 +62,12 @@ Para escalar el proyecto hacia un entorno de producción con un $R^2$ superior, 
 ## Cómo Ejecutar el Proyecto Localmente
 1. Clonar el repositorio:
 ```text
-Bash
-
 git clone https://github.com/Scaques/proyecto-data-science.git
 cd proyecto-data-science
 ```
 
 2. Configurar el entorno virtual e instalar dependencias:
 ```text
-Bash
-
 python -m venv .venv
 .venv\Scripts\Activate.ps1   # En Windows (PowerShell)
 pip install -r requirements.txt
@@ -79,15 +75,11 @@ pip install -r requirements.txt
 
 3. Generar los datos base:
 ```text
-Bash
-
 python src/scraper.py
 ```
 
 4. Abrir los cuadernos de trabajo:
 ```text
-Bash
-
 jupyter lab
 ```
 Ejecutar en orden 1_limpieza.ipynb y luego 2_entrenamiento_modelo.ipynb.
